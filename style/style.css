@@ -1,0 +1,47 @@
+.card {
+  width: 300px;
+  display: grid;
+  place-items: center;
+  background-color: #1f1f1f;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card__img {
+  width: 70px;
+  border-radius: 100%;
+}
+
+.card__name {
+  font-size: 2.4rem;
+  padding-top: 20px;
+}
+
+.card__adress {
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+  color: yellowgreen;
+}
+
+.card__specialty {
+  font-size: 1.4rem;
+  padding-bottom: 20px;
+}
+
+.social {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+
+.social a {
+  background-color: #333333;
+  color: inherit;
+  padding: 10px 0;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+}
